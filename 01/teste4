@@ -1,0 +1,32 @@
+var button = document.querySelector('.button')
+
+button.addEventListener('click', mostrar)
+
+ function mostrar(){
+ 
+    var number = document.querySelector('.number')
+    var valor = Number(number.value)
+
+//---------------------------=-----------------------------
+    var Mas= document.querySelector('.Masculino')
+    Mas.addEventListener('click', numeroum)
+    function numeroum(){
+
+        var mas ='Masculino'
+        if(mas != false){
+         sexo = 'Masculino'
+        }
+    }
+    var Fem = document.querySelector('.Feminino')
+    Fem.addEventListener('click', numerodois)
+    function numerodois(){
+
+        var Fem ='Feminina'
+        if(Fem != false){
+            sexo = 'Feminino'
+        }
+    }
+//---------------------------------------------------------
+    var  texto = document.querySelector('.text')
+    texto.innerHTML = `${valor} ${sexo}`
+ }

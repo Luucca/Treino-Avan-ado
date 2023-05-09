@@ -1,0 +1,31 @@
+
+
+ var button = document.querySelector('.button')
+
+ button.addEventListener('click', mostrar);
+
+function mostrar(){
+
+
+
+ var valor = document.querySelector('.number')
+  var idade = Number(valor.value)
+
+//------------------------------------------------------------
+ var Mas = document.querySelector('.Masculino')
+ Mas.addEventListener('click', Mas_ativado())
+ function Mas_ativado(){
+   
+    sexo = 'Masculino'
+ }
+
+ var Fem = document.querySelector('.Feminino')
+ Fem.addEventListener('click', Fem_ativo())
+ function Fem_ativo(){
+
+  sexo='Feminino'
+ }
+ var text = document.querySelector('.text')
+
+  text.innerHTML = `Uma pessoa com ${idade}anos do sexo ${sexo} é assim:`
+}

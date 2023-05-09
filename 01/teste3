@@ -1,0 +1,24 @@
+
+var Masculino = document.querySelector('.Masculino')
+Masculino.addEventListener('click', Ativo)
+
+var Feminino = document.querySelector('.Feminino')
+Feminino.addEventListener('click', Ativa)
+
+while(""){
+  if(Ativo != false) {
+    Masculino.setAttribute("checked" , "")
+    Feminino.removeAttribute("checked" , "")
+
+  }else if(Ativa != false){
+
+    Feminino.setAttribute("checked" , "")
+    Masculino.removeAttribute("checked" , "")
+
+  }
+}
+
+
+//------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------
