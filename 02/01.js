@@ -16,9 +16,8 @@ var text = document.querySelector('.text')
   var steps = Number(ter.value)
   var end = Number(seg.value)
 
-  while ( número <= end ) {
+  while ( número <= end) {
     text.innerHTML += `Passo ${número}`
     número = número + steps;
   }
-  
 }
