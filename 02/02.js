@@ -18,7 +18,7 @@ var text = document.querySelector('.text')
 
 
   for (var valor = número;valor <= end ; valor = valor + steps){
-    text.innerHTML=`Passo ${valor}`
+    text.innerHTML+=`Passo ${valor}`
 
   }
 }
