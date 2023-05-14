@@ -4,7 +4,7 @@ function Mostrar(){
 
  var List = document.querySelector('.List')
 
- let Valores = [ 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 ]
+ let Valores = [ 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , ]
  var Input = document.querySelector('.number')
  var Número = Number(Input.value)
 
