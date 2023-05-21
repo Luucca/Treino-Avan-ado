@@ -1,111 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@500&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Lexend Peta', sans-serif;
 }
-body{
+.formContent{
     width: 100%;
     height: 100vh;
-    background: #e2e2e2;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image: url(fundo.png);
+    background-position: center;
+    background-size: cover;
 }
-header{
-    width: 50%;
-    height: 50px;
-    background: #75b7d6;
-    color: white;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-family: sans-serif;
-    padding-left: 10px;
-    font-size: 20px;
-}
-main{
-    width: 50%;
-    height: 450px;
-    background: #f3f2f281;
-    border-top: none;
-}
-.search{
-    width: 100%;
-    padding: 15px;
-    height: 50px;
-}
-.inputSearch{
-    height: 40px;
-    width: 85%;
-    outline: none;
-    padding: 10px;
-    border: none;
-    border-radius: 5px 0px 0px 5px ;
-}
-.buttonSearch{
-    float: right;
-    width: 15%;
-    height: 40px;
-    border: none;
-    background: rgb(221, 219, 219);
-    border-radius: 0px 5px 5px 0px;
-}
-.buttonSearch:active{
-    background: rgb(211, 208, 208);
-}
-.List{
-    width: 100%;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 20px;
-    height: 350px;
-    overflow-y: scroll;
-    
-}
-li{
-    margin-bottom: 40px;
-    background: white;
-    padding: 10px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    gap: 10px;
-    font-size: 15px;
-    width: 100%;
-}
-
-.toAdd{
-    width: 100%;
-    background: #f3f2f281;;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.inputAdd{
-    height: 40px;
-    width: 70%;
-    outline: none;
-    padding: 10px;
-    border: none;
-    border-radius: 5px 0px 0px 5px ;
-
-}
-.buttonAdd{
-    float: right;
-    width: 15%;
-    height: 40px;
-    border: none;
-    background: rgb(128, 128, 128);
-    border-radius: 0px 5px 5px 0px;
-    font-size: 20px;
-    color: white;
-}
-.buttonAdd:active{
-    background: rgb(117, 116, 116);
-    font-size: 21px;
-}
-
-    
-       
